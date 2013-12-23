@@ -1,0 +1,59 @@
+@font-face {
+ font-family: 'TitilliumRegular';
+ src: url('fonts/titillium/regular.eot') /* EOT file for IE */
+}
+
+@font-face {
+    font-family: 'TitilliumRegular';
+    src: url('fonts/titillium/regular.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'TitilliumBold';
+ src: url('fonts/titillium/bold.eot') /* EOT file for IE */
+}
+
+@font-face {
+    font-family: 'TitilliumBold';
+    src: url('fonts/titillium/bold.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'TitilliumLight';
+ src: url('fonts/titillium/light.eot') /* EOT file for IE */
+}
+
+@font-face {
+    font-family: 'TitilliumLight';
+    src: url('fonts/titillium/light.ttf') format('truetype');
+}
+
+body{margin: 0;padding:0;font-family:'TitilliumRegular', Helvetica, Arial, sans-serif;font-size: 16px;color:#111;}
+.container{padding:0 40px;}
+
+header{padding:20px 0;}
+header h1{margin: 0;}
+header .title{color: #555;}
+
+section .wrap{background:#fff;position: absolute;top: 400px;width: 100%}
+#sydney{
+    background: url('imgs/sydney.jpg') 50% 0 repeat fixed; min-height: 800px;
+    height: 800px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative; 
+}
+#shanghai{
+    background: url('imgs/shanghai.jpg') 50% 0 repeat fixed; min-height: 800px;
+    height: 800px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+}
+section .title{color: #fff;margin-top: -120px;font-family: 'TitilliumLight';position: relative;padding-left: 50px;font-size: 1.2em;}
+section .title h1{font-size: 2.5em;margin: 0 0 10px;}
+
+.dot{width: 30px;height: 30px;border-radius: 100%;border: 2px solid #fff;position: absolute;left: 0;top: 5px;}
+.dot .inner{margin: 6px auto;width: 18px;height: 18px;border-radius: 100%;background: #fff;}
