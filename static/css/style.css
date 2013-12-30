@@ -39,17 +39,16 @@ section .wrap{background:#fff;position: absolute;top: 400px;width: 100%}
 #sydney{
     background: url('imgs/sydney.jpg') 50% 0 repeat fixed; min-height: 800px;
     height: 800px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
     position: relative; 
 }
 #shanghai{
     background: url('imgs/shanghai.jpg') 50% 0 repeat fixed; min-height: 800px;
     height: 800px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
+    position: relative;
+}
+#malta{
+    background: url('imgs/malta.jpg') 50% 0 repeat fixed; min-height: 800px;
+    height: 800px;
     position: relative;
 }
 section .title{color: #fff;margin-top: -120px;font-family: 'TitilliumLight';position: relative;padding-left: 50px;font-size: 1.2em;}
